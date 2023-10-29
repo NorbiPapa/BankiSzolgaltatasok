@@ -48,7 +48,7 @@ namespace BankiSzolgaltatasok
             return ossz;
         }
 
-        public Számla GetLegnagyobbEgyenlegűSzámla(Tulajdonos tulajdonos, Számla m_szamla)
+        public Számla GetLegnagyobbEgyenlegűSzámla(Tulajdonos tulajdonos)
         {
             Számla sz = this.szamlaLista[0];
             int maxEgyenleg = 0;
